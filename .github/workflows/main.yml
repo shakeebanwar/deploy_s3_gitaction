@@ -22,7 +22,7 @@ jobs:
         
         
     - name: Deploy static site to s3 bucket
-      run: aws s3 sync . s3://portfoliobetashakeeb --delete
+      run: aws s3 sync . s3://bootcamp-github-actions --delete
     
         
         
